@@ -33,3 +33,17 @@ The complete project documentation is available in the **docs** folder.
 - [Business Questions & Insights](docs/08_Business_Questions_and_Insights.pdf)
 - [Business Recommendations](docs/09_Business_Recommendations.pdf)
 - [Final Project Report](docs/10_Final_Project_Report.pdf)
+
+
+## 🛠 Skills Demonstrated
+
+- Data Collection
+- Data Cleaning
+- Power Query
+- Data Transformation
+- Data Modeling
+- DAX
+- Data Visualization
+- Dashboard Design
+- Business Analysis
+- KPI Development
