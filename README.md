@@ -43,15 +43,6 @@ The dashboard provides insights into Movies, TV Shows, Genres, Countries, Rating
 
 ---
 
-## 📊 Dashboard Preview
-
-> Upload your dashboard screenshot inside the **images** folder.
-
-```markdown
-![Netflix Dashboard](images/dashboard.png)
-```
-
----
 
 ## 📈 Key Performance Indicators (KPIs)
 
@@ -61,8 +52,6 @@ The dashboard provides insights into Movies, TV Shows, Genres, Countries, Rating
 - Average IMDb Rating
 - Total Views
 - Total Watch Hours
-- Distinct Countries
-- Distinct Genres
 
 ---
 
