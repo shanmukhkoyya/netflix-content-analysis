@@ -1,4 +1,4 @@
-# 🎬 Netflix Content Analysis Dashboard
+# 🎬 Netflix Content Analysis
 
 ## Description
 
