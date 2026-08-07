@@ -6,7 +6,7 @@
 
 ## 📖 Description
 
-This project analyzes Netflix content using Power BI.
+This project analyzes Netflix content using Power BI,Excel.
 
 The dashboard provides insights into Movies, TV Shows, Genres, Countries, Ratings, Release Trends, IMDb Ratings, Views, and Watch Hours to support business decision-making.
 
