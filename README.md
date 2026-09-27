@@ -151,13 +151,13 @@ netflix-content-analysis/
     ├── 01_Project_Overview.pdf
     ├── 02_Data_Collection_and_Understanding.pdf
     ├── 03_Excel_Data_Quality_Assessment.pdf
-    ├── 04_Power_Query_Data_Cleaning_and_Transformation.pdf.pdf
-    ├── 05_Power_BI_Data_Model.pdf.pdf
-    ├── 06_DAX_Measures_and_KPIs.pdf.pdf
-    ├── 07_Dashboard_Design_and_Visualization.pdf.pdf
-    ├── 08_Business_Questions_and_Insights.pdf.pdf
-    ├── 09_Business_Recommendations.pdf.pdf
-    └── 10_Final_Project_Report.pdf.pdf
+    ├── 04_Power_Query_Data_Cleaning_and_Transformation.pdf
+    ├── 05_Power_BI_Data_Model.pdf
+    ├── 06_DAX_Measures_and_KPIs.pdf
+    ├── 07_Dashboard_Design_and_Visualization.pdf
+    ├── 08_Business_Questions_and_Insights.pdf
+    ├── 09_Business_Recommendations.pdf
+    └── 10_Final_Project_Report.pdf
 ```
 
 ## 📚 Project Documentation
@@ -167,13 +167,13 @@ Detailed project documentation is available in the **docs** folder:
 - [Project Overview](docs/01_Project_Overview.pdf)
 - [Data Collection & Understanding](docs/02_Data_Collection_and_Understanding.pdf)
 - [Excel Data Quality Assessment](docs/03_Excel_Data_Quality_Assessment.pdf)
-- [Power Query Data Cleaning & Transformation](docs/04_Power_Query_Data_Cleaning_and_Transformation.pdf.pdf)
-- [Power BI Data Model](docs/05_Power_BI_Data_Model.pdf.pdf)
-- [DAX Measures & KPIs](docs/06_DAX_Measures_and_KPIs.pdf.pdf)
-- [Dashboard Design & Visualization](docs/07_Dashboard_Design_and_Visualization.pdf.pdf)
-- [Business Questions & Insights](docs/08_Business_Questions_and_Insights.pdf.pdf)
-- [Business Recommendations](docs/09_Business_Recommendations.pdf.pdf)
-- [Final Project Report](docs/10_Final_Project_Report.pdf.pdf)
+- [Power Query Data Cleaning & Transformation](docs/04_Power_Query_Data_Cleaning_and_Transformation.pdf)
+- [Power BI Data Model](docs/05_Power_BI_Data_Model.pdf)
+- [DAX Measures & KPIs](docs/06_DAX_Measures_and_KPIs.pdf)
+- [Dashboard Design & Visualization](docs/07_Dashboard_Design_and_Visualization.pdf)
+- [Business Questions & Insights](docs/08_Business_Questions_and_Insights.pdf)
+- [Business Recommendations](docs/09_Business_Recommendations.pdf)
+- [Final Project Report](docs/10_Final_Project_Report.pdf)
 
 ## 🚀 Future Enhancements
 
