@@ -4,7 +4,7 @@
 
 ## 📊 Dashboard Preview
 
-> Dashboard screenshot will be added in `images/dashboard.png`.
+![Netflix Content Analysis Dashboard](images/dashboard.png)
 
 ## 🧭 Project Overview
 
