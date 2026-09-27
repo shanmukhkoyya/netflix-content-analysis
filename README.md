@@ -4,7 +4,7 @@
 
 ## 📊 Dashboard Preview
 
-![Netflix Content Analysis Dashboard](dashboard.png)
+![Netflix Content Analysis Dashboard](images/dashboard.png)
 
 ## 🧭 Project Overview
 
