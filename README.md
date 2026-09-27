@@ -138,7 +138,6 @@ netflix-content-analysis/
 │
 ├── README.md
 ├── Netflix_Content_Analysis_Dashboard.pbix
-├── Backup_Dashboard.pbix
 ├── Raw_Netflix_Dataset.xlsx
 ├── Cleaned_Netflix_Dataset.xlsx
 ├── Cleaned_Data_Quality_Report.xlsx
