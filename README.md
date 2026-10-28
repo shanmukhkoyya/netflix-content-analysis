@@ -20,10 +20,13 @@ This project explores a supplied Netflix content dataset and presents patterns i
 5. Build report pages and filters to explore the data.
 6. Record findings and recommendations in the project documentation.
 
-## Dashboard preview
-![Netflix Content Analysis Dashboard](images/dashboard.png)
+## Dashboard layout preview
 
-Open the PBIX file in Power BI Desktop to interact with the report.
+![Static layout preview of Netflix Content Analysis](images/dashboard-layout-preview.svg)
+
+*This is a static layout concept, not a screenshot exported from Power BI Desktop. The shapes are illustrative placeholders, not data results. Verify counts and calculations against the cleaned workbook and the actual PBIX.*
+
+Open the PBIX file in Power BI Desktop to interact with the actual report.
 
 ## Files
 | File or folder | Purpose |
@@ -32,7 +35,7 @@ Open the PBIX file in Power BI Desktop to interact with the report.
 | [Raw dataset](Raw_Netflix_Dataset.xlsx) | Starting dataset |
 | [Cleaned dataset](Cleaned_Netflix_Dataset.xlsx) | Prepared data |
 | [Data-quality report](Cleaned_Data_Quality_Report.xlsx) | Data-quality review |
-| [Dashboard image](images/dashboard.png) | Preview image |
+| [Static dashboard layout preview](images/dashboard-layout-preview.svg) | Clearly labelled conceptual layout, not a Power BI screenshot |
 | [Project documentation](docs/) | Workflow, data quality, model, measures, analysis, and recommendations |
 
 ## Main report areas
