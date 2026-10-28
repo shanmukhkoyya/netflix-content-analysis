@@ -1,197 +1,65 @@
-# 🎬 Netflix Content Analysis
+# Netflix Content Analysis
 
-> An end-to-end Business Intelligence project using **Excel, Power Query, Power BI, and DAX** to analyze Netflix content, audience metrics, ratings, genres, countries, and release trends.
+**Tools:** Excel · Power Query · Power BI · DAX
 
-## 📊 Dashboard Preview
+This project explores a supplied Netflix content dataset and presents patterns in title types, genres, ratings, countries, release years, and audience-related fields.
 
+> Findings describe the dataset used for this project; they are not current statistics about Netflix's live catalogue.
+
+## Questions explored
+- How is the dataset split between Movies and TV Shows?
+- Which genres and ratings appear most often?
+- How does title count vary by release year and country?
+- How do the available rating and audience fields vary across groups?
+
+## Workflow
+1. Review the original dataset and identify data-quality issues.
+2. Clean and standardise fields in Excel and Power Query.
+3. Prepare the data model in Power BI.
+4. Create measures and KPIs with DAX.
+5. Build report pages and filters to explore the data.
+6. Record findings and recommendations in the project documentation.
+
+## Dashboard preview
 ![Netflix Content Analysis Dashboard](images/dashboard.png)
 
-## 🧭 Project Overview
+Open the PBIX file in Power BI Desktop to interact with the report.
 
-This project analyzes a Netflix content dataset to understand **content distribution, release trends, genres, ratings, geography, and audience engagement**.
-
-The project follows a practical analytics workflow:
-
-**Raw Data → Data Quality Assessment → Power Query Transformation → Data Modeling → DAX Measures → Interactive Dashboard → Business Insights**
-
-## 🎯 Business Objectives
-
-- Understand the distribution of Movies and TV Shows
-- Analyze Netflix title trends over time
-- Identify major genres and content ratings
-- Compare content contribution across countries
-- Analyze IMDb ratings and audience metrics
-- Develop KPIs for business reporting
-- Convert raw data into actionable business insights
-
-## 🛠️ Tools & Technologies
-
-| Area | Tools |
+## Files
+| File or folder | Purpose |
 |---|---|
-| Data Source | Microsoft Excel |
-| Data Cleaning | Excel, Power Query |
-| Data Transformation | Power Query |
-| Data Modeling | Power BI |
-| Calculations | DAX |
-| Visualization | Power BI |
-| Documentation | PDF reports |
+| [Power BI report](Netflix_Content_Analysis_Dashboard.pbix) | Interactive report file |
+| [Raw dataset](Raw_Netflix_Dataset.xlsx) | Starting dataset |
+| [Cleaned dataset](Cleaned_Netflix_Dataset.xlsx) | Prepared data |
+| [Data-quality report](Cleaned_Data_Quality_Report.xlsx) | Data-quality review |
+| [Dashboard image](images/dashboard.png) | Preview image |
+| [Project documentation](docs/) | Workflow, data quality, model, measures, analysis, and recommendations |
 
-## 📂 Dataset
+## Main report areas
+- Content mix by type and rating
+- Genre and country distribution
+- Release-year patterns
+- Rating and audience metrics available in the dataset
+- Filters for release year, type, country, genre, and rating
 
-- **Domain:** Entertainment / Streaming
-- **Format:** Excel (.xlsx)
-- **Files:** Raw and cleaned datasets are included in the repository
-- **Key analysis areas:** Title type, genre, country, rating, release year, IMDb rating, views, and watch hours
+## Tools by stage
+| Stage | Tool |
+|---|---|
+| Data review and preparation | Excel |
+| Cleaning and transformation | Power Query |
+| Data model and report | Power BI |
+| Measures and KPIs | DAX |
 
-## 🔄 Data Preparation
+## How to review
+1. Open Netflix_Content_Analysis_Dashboard.pbix in Power BI Desktop.
+2. Explore the report pages and interactive filters.
+3. Compare the visuals with the cleaned dataset and data-quality report.
+4. Use the docs folder to review the workflow and findings.
 
-The project includes a structured data-preparation process:
+## Limitations
+- Results depend on the supplied dataset and its fields.
+- Patterns in this dataset do not necessarily describe Netflix's current catalogue or audience.
+- Revenue or subscription conclusions should not be made unless the relevant data and assumptions are documented.
 
-1. Assessed the raw dataset for data-quality issues
-2. Cleaned and transformed data using Excel and Power Query
-3. Standardized relevant fields and prepared analytical columns
-4. Built a Power BI data model
-5. Created measures and KPIs using DAX
-
-## 📈 Key KPIs
-
-- **Total Titles**
-- **Total Movies**
-- **Total TV Shows**
-- **Average IMDb Rating**
-- **Total Views**
-- **Total Watch Hours**
-
-## 📊 Dashboard Analysis
-
-The main Power BI dashboard provides interactive analysis of:
-
-### Content Mix
-- Movies vs TV Shows
-- Content distribution by rating
-- Top genres by number of titles
-
-### Trend Analysis
-- Netflix titles by release year
-- Changes in content volume over time
-
-### Geographic Analysis
-- Content contribution by country
-- Regional audience/watch-hour patterns
-
-### Audience & Quality Metrics
-- IMDb rating analysis
-- Views
-- Watch hours
-
-### Interactive Filters
-- Release Year
-- Type
-- Country
-- Genre
-- Rating
-
-## ❓ Business Questions
-
-- How is the content library distributed between Movies and TV Shows?
-- Which genres contribute the most titles?
-- Which countries contribute the largest number of titles?
-- How has content volume changed over time?
-- Which content ratings are most common?
-- Which genres have higher average IMDb ratings?
-- Which directors contribute the largest number of titles?
-- Which regions generate the highest watch hours?
-- What patterns can support content and audience analysis?
-
-## 💡 Key Insights
-
-The current analysis indicates:
-
-- Movies form a larger share of the analyzed content than TV Shows.
-- Drama is among the major genres represented in the dataset.
-- The United States contributes a large share of the analyzed titles.
-- Content volume is concentrated in more recent release years within the dataset.
-- Rating, genre, geography, and audience metrics can be explored together through interactive Power BI filtering.
-
-> **Note:** Insights are based on the project dataset and should be interpreted as analysis of the supplied data rather than current Netflix platform statistics.
-
-## 🧠 Skills Demonstrated
-
-- Data Understanding
-- Data Quality Assessment
-- Data Cleaning
-- Data Transformation
-- Power Query
-- Data Modeling
-- DAX
-- KPI Development
-- Dashboard Design
-- Data Visualization
-- Exploratory Analysis
-- Business Question Framing
-- Business Insight Communication
-
-## 📁 Repository Structure
-
-```text
-netflix-content-analysis/
-│
-├── README.md
-├── Netflix_Content_Analysis_Dashboard.pbix
-├── Raw_Netflix_Dataset.xlsx
-├── Cleaned_Netflix_Dataset.xlsx
-├── Cleaned_Data_Quality_Report.xlsx
-│
-├── images/
-│   └── dashboard.png
-│
-└── docs/
-    ├── README.md
-    ├── 01_Project_Overview.pdf
-    ├── 02_Data_Collection_and_Understanding.pdf
-    ├── 03_Excel_Data_Quality_Assessment.pdf
-    ├── 04_Power_Query_Data_Cleaning_and_Transformation.pdf
-    ├── 05_Power_BI_Data_Model.pdf
-    ├── 06_DAX_Measures_and_KPIs.pdf
-    ├── 07_Dashboard_Design_and_Visualization.pdf
-    ├── 08_Business_Questions_and_Insights.pdf
-    ├── 09_Business_Recommendations.pdf
-    └── 10_Final_Project_Report.pdf
-```
-
-## 📚 Project Documentation
-
-Detailed project documentation is available in the **docs** folder:
-
-- [Project Overview](docs/01_Project_Overview.pdf)
-- [Data Collection & Understanding](docs/02_Data_Collection_and_Understanding.pdf)
-- [Excel Data Quality Assessment](docs/03_Excel_Data_Quality_Assessment.pdf)
-- [Power Query Data Cleaning & Transformation](docs/04_Power_Query_Data_Cleaning_and_Transformation.pdf)
-- [Power BI Data Model](docs/05_Power_BI_Data_Model.pdf)
-- [DAX Measures & KPIs](docs/06_DAX_Measures_and_KPIs.pdf)
-- [Dashboard Design & Visualization](docs/07_Dashboard_Design_and_Visualization.pdf)
-- [Business Questions & Insights](docs/08_Business_Questions_and_Insights.pdf)
-- [Business Recommendations](docs/09_Business_Recommendations.pdf)
-- [Final Project Report](docs/10_Final_Project_Report.pdf)
-
-## 🚀 Future Enhancements
-
-- Add more advanced audience segmentation
-- Add subscription and revenue metrics when suitable data is available
-- Add deeper time-series analysis
-- Improve dashboard performance and usability
-- Extend the project with Python-based exploratory analysis
-
-## 📬 Contact
-
-**Shanmukh Koyya**
-
-📧 [shanmukhkoyya1234@gmail.com](mailto:shanmukhkoyya1234@gmail.com)
-
-💼 [LinkedIn](https://www.linkedin.com/in/shanmukh-koyya/)
-
-🐙 [GitHub](https://github.com/shanmukhkoyya)
-
----
-
-⭐ This repository is part of my hands-on Data Analytics portfolio.
+## Author
+**Shanmukh Koyya** · [GitHub](https://github.com/shanmukhkoyya) · [LinkedIn](https://www.linkedin.com/in/shanmukh-koyya/) · [Email](mailto:shanmukhkoyya1234@gmail.com)
