@@ -36,7 +36,7 @@ Open the PBIX file in Power BI Desktop to interact with the actual report.
 | [Cleaned dataset](Cleaned_Netflix_Dataset.xlsx) | Prepared data |
 | [Data-quality report](Cleaned_Data_Quality_Report.xlsx) | Data-quality review |
 | [Static dashboard layout preview](images/dashboard-layout-preview.svg) | Clearly labelled conceptual layout, not a Power BI screenshot |
-| [Project documentation](docs/) | Workflow, data quality, model, measures, analysis, and recommendations |
+| [Project overview](docs/01_Project_Overview.pdf) | Workflow, data quality, model, measures, analysis, and recommendations |
 
 ## Main report areas
 - Content mix by type and rating
