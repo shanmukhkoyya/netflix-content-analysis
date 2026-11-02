@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/readme-hero.svg" alt="THE CATALOGUE EDIT — STREAMING CONTENT • EXCEL • POWER BI" width="100%"/></p>
+
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:141414,100:8E1B24&height=170&text=THE%20CATALOGUE%20EDIT&fontSize=40&fontColor=ffffff"/>
 <b>A streaming catalogue case study</b><br/>
