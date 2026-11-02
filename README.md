@@ -1,37 +1,59 @@
-<p align="center"><img src="assets/readme-hero.svg" alt="THE CATALOGUE EDIT — STREAMING CONTENT • EXCEL • POWER BI" width="100%"/></p>
+<p align="center"><img src="assets/readme-hero.svg" width="100%" alt="Streaming catalogue analytics"/></p>
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:141414,100:8E1B24&height=170&text=THE%20CATALOGUE%20EDIT&fontSize=40&fontColor=ffffff"/>
-<b>A streaming catalogue case study</b><br/>
-<img src="https://img.shields.io/badge/EXCEL-217346?logo=microsoftexcel"/> <img src="https://img.shields.io/badge/POWER%20QUERY-00A6A6"/> <img src="https://img.shields.io/badge/POWER%20BI-F2C811?logo=powerbi"/> <img src="https://img.shields.io/badge/DAX-4479A1"/>
+
+# THE CATALOGUE EDIT
+### A streaming-library data story
+
+<img src="https://img.shields.io/badge/EXCEL-217346?logo=microsoftexcel&style=for-the-badge"/>
+<img src="https://img.shields.io/badge/POWER%20QUERY-00A6A6?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/POWER%20BI-F2C811?logo=powerbi&style=for-the-badge"/>
+
 </div>
 
-## Editorial brief
-Explore the supplied catalogue by format, genre, content rating, country and release year. This is an offline project dataset—not Netflix's current live catalogue.
+## Editor's brief
+
+A supplied streaming catalogue is explored by format, genre, content rating, country and release year. This is an offline project dataset—not Netflix's current live catalogue.
 
 ## Production storyboard
-| **01 · INGEST** | **02 · AUDIT** | **03 · PREPARE** |
-|:---:|:---:|:---:|
-| 📂 Excel source | 🧪 Quality review | 🧹 Power Query |
-| **04 · MODEL** | **05 · REPORT** | **06 · EXPLAIN** |
-| 🧩 Power BI | 📊 DAX and visuals | 📝 PDF reports |
 
-## Asset shelf
-| Deliverable | Open |
-|---|---|
-| Raw source | [Raw workbook](Raw_Netflix_Dataset.xlsx) |
-| Prepared source | [Cleaned workbook](Cleaned_Netflix_Dataset.xlsx) |
-| QA | [Data-quality report](Cleaned_Data_Quality_Report.xlsx) |
-| Report | [Power BI PBIX](Netflix_Content_Analysis_Dashboard.pbix) |
-| Documentation | [Ten-report index](docs/README.md) |
+<table>
+<tr><td align="center" width="33%"><h2>01</h2><strong>INGEST</strong><br/>Excel source</td><td align="center" width="33%"><h2>02</h2><strong>INSPECT</strong><br/>Data-quality review</td><td align="center" width="33%"><h2>03</h2><strong>PREPARE</strong><br/>Power Query</td></tr>
+<tr><td align="center"><h2>04</h2><strong>MODEL</strong><br/>Power BI structure</td><td align="center"><h2>05</h2><strong>VISUALISE</strong><br/>DAX & report</td><td align="center"><h2>06</h2><strong>DOCUMENT</strong><br/>PDF reports</td></tr>
+</table>
 
-## Art direction
-![Conceptual dashboard](images/dashboard-layout-preview.svg)
-<sub>Static layout concept only—not a Power BI screenshot.</sub>
+## Browse the production assets
 
-## Questions on the edit desk
-🎞️ Movies vs TV Shows · 🎭 Genre mix · 🔞 Content ratings · 🌍 Country coverage · 📅 Release-year distribution
+| Cut | Deliverable | File |
+|---|---|---|
+| Original | Raw workbook | [Open XLSX](Raw_Netflix_Dataset.xlsx) |
+| Prepared | Cleaned workbook | [Open XLSX](Cleaned_Netflix_Dataset.xlsx) |
+| Quality | Data-quality report | [Open XLSX](Cleaned_Data_Quality_Report.xlsx) |
+| Dashboard | Power BI report | [Open PBIX](Netflix_Content_Analysis_Dashboard.pbix) |
+| Documentation | Report collection | [Open index](docs/README.md) |
 
-<details><summary><b>Reviewer watchlist</b></summary>Compare raw and cleaned workbooks → inspect quality report → open PBIX → check model and measures → compare outputs with PDF documentation.</details>
+## Visual direction
 
-**Boundary:** Catalogue patterns do not establish audience preference, viewing behaviour or business causation.
+![Conceptual dashboard layout](images/dashboard-layout-preview.svg)
+
+<sub>Concept artwork for the report layout; not a screenshot exported from Power BI.</sub>
+
+## Questions for the analyst
+
+- 🎬 Is the supplied catalogue weighted toward movies or TV shows?
+- 🎭 Which genres appear most often?
+- 🔞 How are content ratings distributed?
+- 🌍 Which countries appear in the dataset?
+- 📆 How does release-year coverage vary?
+
+<details><summary><strong>Reviewer's screening checklist</strong></summary>
+
+- Compare raw and cleaned workbook structures.
+- Inspect the quality report and documented cleaning decisions.
+- Open the PBIX and review model relationships.
+- Check measures and visual interactions.
+- Reconcile reported patterns to the source data.
+
+</details>
+
+**Interpretation limit:** Catalogue composition does not reveal audience preference, viewing behaviour or business causation.
