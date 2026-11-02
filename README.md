@@ -1,95 +1,84 @@
-# Netflix Catalogue Analysis
+<div align="center">
 
-<p align="center">
-  <em>A data-preparation and business-intelligence case study</em><br>
-  <strong>EXCEL&nbsp; / &nbsp;POWER QUERY&nbsp; / &nbsp;POWER BI&nbsp; / &nbsp;DAX</strong>
-</p>
+# THE CATALOGUE EDIT
+
+### A Netflix content-data case study
+
+**EXCEL · POWER QUERY · POWER BI · DAX**
+
+<img src="https://img.shields.io/badge/Workflow-Data%20preparation-275D72?style=flat-square"/>
+<img src="https://img.shields.io/badge/Output-Editable%20PBIX-E34A86?style=flat-square"/>
+
+</div>
 
 ---
 
-## The story in one minute
+## The editorial question
 
-A catalogue dataset can answer more than “how many titles are there?” This project explores how the supplied Netflix dataset is distributed across Movies and TV Shows, genres, ratings, countries and release years.
+A streaming catalogue is more than a title count. This project examines how the supplied records are distributed across **Movies and TV Shows, genres, content ratings, countries and release years**.
 
-The work follows a multi-tool workflow: inspect the source in Excel, assess data quality, transform fields in Power Query, prepare a Power BI model, and communicate findings through report visuals and written documentation.
+The assignment follows a complete preparation-to-reporting path: source inspection, data-quality review, Power Query transformations, Power BI modelling, DAX calculations and visual communication.
 
-> **Dataset boundary:** This is an analysis of the supplied project dataset. It is not a live connection to Netflix and should not be read as a description of the current catalogue.
+> **Catalogue date boundary:** This repository analyses the supplied project dataset. It is not connected to Netflix and does not represent the live catalogue today.
 
-## Explore the deliverables
+## The story pipeline
 
-| Start here | What it contains |
+<table>
+  <tr><td align="center"><h2>01</h2><b>Inspect</b><br/>Excel source review</td><td align="center"><h2>02</h2><b>Audit</b><br/>Missing values, duplicates and consistency</td></tr>
+  <tr><td align="center"><h2>03</h2><b>Prepare</b><br/>Power Query cleaning</td><td align="center"><h2>04</h2><b>Model</b><br/>Power BI and DAX</td></tr>
+  <tr><td align="center"><h2>05</h2><b>Explain</b><br/>Report visuals and findings</td><td align="center"><h2>06</h2><b>Document</b><br/>Supporting project reports</td></tr>
+</table>
+
+## The production desk — project files
+
+| Asset | Why it matters |
 |---|---|
-| [Raw dataset](Raw_Netflix_Dataset.xlsx) | Original workbook supplied for the analysis |
-| [Cleaned dataset](Cleaned_Netflix_Dataset.xlsx) | Prepared workbook |
-| [Data-quality report](Cleaned_Data_Quality_Report.xlsx) | Quality assessment workbook |
-| [Power BI report](Netflix_Content_Analysis_Dashboard.pbix) | Editable report file for Power BI Desktop |
-| [Project documentation](docs/README.md) | Index to the supporting reports |
+| [Raw Netflix dataset](Raw_Netflix_Dataset.xlsx) | Original source workbook |
+| [Cleaned Netflix dataset](Cleaned_Netflix_Dataset.xlsx) | Prepared data |
+| [Data-quality report](Cleaned_Data_Quality_Report.xlsx) | Workbook documenting quality review |
+| [Power BI dashboard](Netflix_Content_Analysis_Dashboard.pbix) | Editable report for Power BI Desktop |
+| [Documentation library](docs/README.md) | Index to the supporting project reports |
 
-## Questions explored
+## Questions that guide the analysis
 
-- What is the split between Movies and TV Shows?
-- Which genres occur most frequently in the supplied records?
-- Which content-rating categories appear most often?
-- How is country information distributed?
-- How do title counts vary by release year?
-- What can the available rating and audience fields tell us—and what can they not tell us?
+| Editorial angle | Analysis question |
+|---|---|
+| Format | How do Movies and TV Shows compare in the supplied records? |
+| Genre | Which genres are most frequently represented? |
+| Rating | Which content-rating groups occur most often? |
+| Geography | How is country information distributed? |
+| Time | How do title counts vary by release year? |
+| Audience fields | What can the available rating-related fields support—and what remains unknown? |
 
-## How the analysis is organised
-
-| Stage | Tool | Work performed |
-|---|---|---|
-| 01 · Understand | Excel | Inspect the source structure, fields and records |
-| 02 · Assess | Excel | Review missing values, duplicates and consistency |
-| 03 · Prepare | Power Query | Clean and standardise selected fields |
-| 04 · Model | Power BI | Load the prepared data and organise the reporting model |
-| 05 · Calculate | DAX | Create measures and KPI calculations for the report |
-| 06 · Communicate | Power BI | Arrange visuals and filters around the analysis questions |
-
-The exact transformation details and supporting explanations are in the numbered reports under `docs/`.
-
-## Report preview
+## Visual direction
 
 ![Conceptual Netflix dashboard layout](images/dashboard-layout-preview.svg)
 
-<sub>The image above is a static layout concept, not a screenshot exported from Power BI Desktop. Open the PBIX file to inspect the editable report.</sub>
+<sub>This graphic is a static layout concept, not a screenshot exported from Power BI Desktop. Open the PBIX file to inspect the editable report.</sub>
 
-## Documentation library
+## Six chapters of the supporting report
 
-Ten project reports are available:
+The repository includes ten supporting PDF reports covering the project overview, source understanding, Excel quality checks, Power Query preparation, Power BI model, DAX/KPIs, dashboard design, business questions, findings and project conclusion.
 
-| Report | Focus |
-|---|---|
-| [01 — Project Overview](docs/01_Project_Overview.pdf) | Scope and workflow |
-| [02 — Data Collection and Understanding](docs/02_Data_Collection_and_Understanding.pdf) | Source review |
-| [03 — Excel Data Quality Assessment](docs/03_Excel_Data_Quality_Assessment.pdf) | Data-quality checks |
-| [04 — Power Query Cleaning and Transformation](docs/04_Power_Query_Data_Cleaning_and_Transformation.pdf) | Preparation steps |
-| [05 — Power BI Data Model](docs/05_Power_BI_Data_Model.pdf) | Model structure |
-| [06 — DAX Measures and KPIs](docs/06_DAX_Measures_and_KPIs.pdf) | Calculations |
-| [07 — Dashboard Design and Visualization](docs/07_Dashboard_Design_and_Visualization.pdf) | Visual design |
-| [08 — Business Questions and Insights](docs/08_Business_Questions_and_Insights.pdf) | Interpretation |
-| [09 — Business Recommendations](docs/09_Business_Recommendations.pdf) | Dataset-based suggestions |
-| [10 — Final Project Report](docs/10_Final_Project_Report.pdf) | Consolidated report |
+**[Browse the numbered PDF documentation index →](docs/README.md)**
 
-## Open the project locally
+## Review the work in sequence
 
-**Requirements:** Microsoft Excel and Power BI Desktop.
+1. Compare the raw and cleaned workbooks.
+2. Read the data-quality report and transformation notes.
+3. Open the PBIX in Power BI Desktop.
+4. Inspect the model, measures, filters and page design.
+5. Compare report outputs with the written documentation.
 
-1. Clone or download this repository.
-2. Inspect `Raw_Netflix_Dataset.xlsx` first.
-3. Review `Cleaned_Data_Quality_Report.xlsx` and `Cleaned_Netflix_Dataset.xlsx`.
-4. Open `Netflix_Content_Analysis_Dashboard.pbix` in Power BI Desktop.
-5. Review the model, measures, report pages and filters.
-6. Use the PDF library when you need the written process behind the report.
+## Interpretation note
 
-## Interpretation notes
-
-- All findings depend on the records and fields in the supplied workbook.
-- The project does not represent Netflix's current live catalogue.
-- Release-year patterns describe the records in this dataset; they do not establish why content was produced or removed.
-- Revenue, subscriptions, viewer behaviour and platform performance are outside the scope unless supported by suitable data.
-- The preview graphic is conceptual. The PBIX is the report artifact to inspect.
+All counts and distributions are specific to the supplied workbook. A release-year pattern does not explain why content was added or removed, and descriptive catalogue analysis does not establish audience preference, viewing behaviour or business causation.
 
 ---
 
-**Project author:** Shanmukh Koyya  
-[GitHub profile](https://github.com/shanmukhkoyya) · [LinkedIn](https://www.linkedin.com/in/shanmukh-koyya/) · [Email](mailto:shanmukhkoyya1234@gmail.com)
+<p align="center">
+  <b>Case study owner: Shanmukh Koyya</b><br/>
+  <a href="https://github.com/shanmukhkoyya">GitHub</a> ·
+  <a href="https://www.linkedin.com/in/shanmukh-koyya/">LinkedIn</a> ·
+  <a href="mailto:shanmukhkoyya1234@gmail.com">Email</a>
+</p>
