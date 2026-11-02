@@ -1,199 +1,95 @@
-# Netflix Content Analysis
+# Netflix Catalogue Analysis
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:14243B,100:00C9D8&height=180&section=header&text=NETFLIX%20CONTENT%20ANALYSIS&fontSize=30&fontColor=ffffff&fontAlignY=40&desc=EXCEL%20%7C%20POWER%20QUERY%20%7C%20POWER%20BI%20%7C%20DAX&descAlignY=65" width="100%" />
+  <em>A data-preparation and business-intelligence case study</em><br>
+  <strong>EXCEL&nbsp; / &nbsp;POWER QUERY&nbsp; / &nbsp;POWER BI&nbsp; / &nbsp;DAX</strong>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" />
-  <img src="https://img.shields.io/badge/Power_Query-00A6A6?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
-  <img src="https://img.shields.io/badge/DAX-4479A1?style=for-the-badge" />
-</p>
+---
 
-## 1. Project Overview
+## The story in one minute
 
-This project explores a supplied Netflix content dataset using Microsoft Excel, Power Query and Power BI.
+A catalogue dataset can answer more than “how many titles are there?” This project explores how the supplied Netflix dataset is distributed across Movies and TV Shows, genres, ratings, countries and release years.
 
-The objective is to prepare the data, build an analytical report and understand patterns in content types, genres, ratings, countries and release years.
+The work follows a multi-tool workflow: inspect the source in Excel, assess data quality, transform fields in Power Query, prepare a Power BI model, and communicate findings through report visuals and written documentation.
 
-The project follows a complete data analytics workflow, from initial data inspection to dashboard development and business insights.
+> **Dataset boundary:** This is an analysis of the supplied project dataset. It is not a live connection to Netflix and should not be read as a description of the current catalogue.
 
-> **Note:** Findings describe the supplied project dataset. They should not be interpreted as current statistics about Netflix's live catalogue.
+## Explore the deliverables
 
-## 2. Business Problem
-
-Understanding the distribution and characteristics of streaming content can help stakeholders explore catalogue composition and content trends.
-
-This project uses data preparation, transformation and visualisation techniques to examine the available Netflix dataset and answer relevant analytical questions.
-
-## 3. Project Objectives
-
-- Inspect the raw dataset and identify data-quality issues.
-- Clean and standardise data using Excel and Power Query.
-- Prepare the dataset for reporting and analysis.
-- Build a Power BI data model.
-- Create measures and KPIs using DAX.
-- Explore content types, genres, ratings, countries and release years.
-- Present findings through interactive report visuals.
-
-## 4. Business Questions
-
-- How is the dataset distributed between Movies and TV Shows?
-- Which genres appear most frequently?
-- Which content ratings are most common?
-- How does title distribution vary across countries?
-- How has the number of titles varied by release year?
-- What patterns can be explored using the available rating and audience fields?
-
-## 5. Dataset Overview
-
-The project includes the following data files:
-
-| File | Description |
+| Start here | What it contains |
 |---|---|
-| [Raw Netflix Dataset](Raw_Netflix_Dataset.xlsx) | Original dataset |
-| [Cleaned Netflix Dataset](Cleaned_Netflix_Dataset.xlsx) | Prepared dataset |
-| [Data Quality Report](Cleaned_Data_Quality_Report.xlsx) | Data-quality assessment |
+| [Raw dataset](Raw_Netflix_Dataset.xlsx) | Original workbook supplied for the analysis |
+| [Cleaned dataset](Cleaned_Netflix_Dataset.xlsx) | Prepared workbook |
+| [Data-quality report](Cleaned_Data_Quality_Report.xlsx) | Quality assessment workbook |
+| [Power BI report](Netflix_Content_Analysis_Dashboard.pbix) | Editable report file for Power BI Desktop |
+| [Project documentation](docs/README.md) | Index to the supporting reports |
 
-The analysis uses available fields such as title, type, director, cast, country, date added, release year, rating, duration and listed genres.
+## Questions explored
 
-## 6. Project Workflow
+- What is the split between Movies and TV Shows?
+- Which genres occur most frequently in the supplied records?
+- Which content-rating categories appear most often?
+- How is country information distributed?
+- How do title counts vary by release year?
+- What can the available rating and audience fields tell us—and what can they not tell us?
 
-### Step 1 — Data Understanding
+## How the analysis is organised
 
-- Reviewed the original dataset.
-- Examined columns, data types and available records.
-- Identified missing values and potential inconsistencies.
+| Stage | Tool | Work performed |
+|---|---|---|
+| 01 · Understand | Excel | Inspect the source structure, fields and records |
+| 02 · Assess | Excel | Review missing values, duplicates and consistency |
+| 03 · Prepare | Power Query | Clean and standardise selected fields |
+| 04 · Model | Power BI | Load the prepared data and organise the reporting model |
+| 05 · Calculate | DAX | Create measures and KPI calculations for the report |
+| 06 · Communicate | Power BI | Arrange visuals and filters around the analysis questions |
 
-### Step 2 — Excel Data Quality Assessment
+The exact transformation details and supporting explanations are in the numbered reports under `docs/`.
 
-- Inspected missing and duplicate values.
-- Reviewed data completeness and consistency.
-- Documented data-quality observations.
+## Report preview
 
-### Step 3 — Power Query Transformation
+![Conceptual Netflix dashboard layout](images/dashboard-layout-preview.svg)
 
-- Cleaned and standardised selected fields.
-- Applied data transformation steps.
-- Prepared the dataset for Power BI reporting.
+<sub>The image above is a static layout concept, not a screenshot exported from Power BI Desktop. Open the PBIX file to inspect the editable report.</sub>
 
-### Step 4 — Power BI Data Modeling
+## Documentation library
 
-- Loaded the prepared data.
-- Organised the reporting model.
-- Prepared fields for analytical reporting.
+Ten project reports are available:
 
-### Step 5 — DAX Measures and KPIs
-
-- Developed measures for report analysis.
-- Prepared calculations for content distribution and comparisons.
-- Used DAX to support interactive reporting.
-
-### Step 6 — Dashboard Development
-
-- Created report visuals.
-- Added filters for exploring the available dataset.
-- Organised the report around the project business questions.
-
-## 7. Dashboard Preview
-
-![Netflix Content Analysis dashboard layout preview](images/dashboard-layout-preview.svg)
-
-*This is a conceptual dashboard layout preview, not an actual screenshot from Power BI Desktop. Refer to the PBIX file for the interactive report.*
-
-**[Open the Power BI Dashboard](Netflix_Content_Analysis_Dashboard.pbix)**
-
-## 8. Main Report Areas
-
-| Analysis area | Purpose |
+| Report | Focus |
 |---|---|
-| Content Type | Explore Movies and TV Shows |
-| Genre Analysis | Examine genre distribution |
-| Ratings | Explore content rating categories |
-| Country Analysis | Compare available country information |
-| Release Year | Examine release-year patterns |
-| Interactive Filters | Explore data by available categories |
+| [01 — Project Overview](docs/01_Project_Overview.pdf) | Scope and workflow |
+| [02 — Data Collection and Understanding](docs/02_Data_Collection_and_Understanding.pdf) | Source review |
+| [03 — Excel Data Quality Assessment](docs/03_Excel_Data_Quality_Assessment.pdf) | Data-quality checks |
+| [04 — Power Query Cleaning and Transformation](docs/04_Power_Query_Data_Cleaning_and_Transformation.pdf) | Preparation steps |
+| [05 — Power BI Data Model](docs/05_Power_BI_Data_Model.pdf) | Model structure |
+| [06 — DAX Measures and KPIs](docs/06_DAX_Measures_and_KPIs.pdf) | Calculations |
+| [07 — Dashboard Design and Visualization](docs/07_Dashboard_Design_and_Visualization.pdf) | Visual design |
+| [08 — Business Questions and Insights](docs/08_Business_Questions_and_Insights.pdf) | Interpretation |
+| [09 — Business Recommendations](docs/09_Business_Recommendations.pdf) | Dataset-based suggestions |
+| [10 — Final Project Report](docs/10_Final_Project_Report.pdf) | Consolidated report |
 
-## 9. Tools and Technologies
+## Open the project locally
 
-| Tool | Role in the project |
-|---|---|
-| Microsoft Excel | Initial data review and quality assessment |
-| Power Query | Data cleaning and transformation |
-| Power BI | Data modeling and dashboard development |
-| DAX | Measures and KPI calculations |
-
-## 10. Project Documentation
-
-The `docs` folder contains detailed reports covering the project workflow.
-
-| Document | Description |
-|---|---|
-| [01 — Project Overview](docs/01_Project_Overview.pdf) | Project scope and overall workflow |
-| [02 — Data Collection and Understanding](docs/02_Data_Collection_and_Understanding.pdf) | Dataset review and understanding |
-| [03 — Excel Data Quality Assessment](docs/03_Excel_Data_Quality_Assessment.pdf) | Data-quality review |
-| [04 — Power Query Cleaning and Transformation](docs/04_Power_Query_Data_Cleaning_and_Transformation.pdf) | Data preparation process |
-| [05 — Power BI Data Model](docs/05_Power_BI_Data_Model.pdf) | Data-model documentation |
-| [06 — DAX Measures and KPIs](docs/06_DAX_Measures_and_KPIs.pdf) | Measure and KPI documentation |
-| [07 — Dashboard Design and Visualization](docs/07_Dashboard_Design_and_Visualization.pdf) | Dashboard design approach |
-| [08 — Business Questions and Insights](docs/08_Business_Questions_and_Insights.pdf) | Analytical questions and findings |
-| [09 — Business Recommendations](docs/09_Business_Recommendations.pdf) | Recommendations based on project analysis |
-| [10 — Final Project Report](docs/10_Final_Project_Report.pdf) | Consolidated project report |
-
-## 11. Project Structure
-
-```text
-netflix-content-analysis/
-│
-├── Raw_Netflix_Dataset.xlsx
-├── Cleaned_Netflix_Dataset.xlsx
-├── Cleaned_Data_Quality_Report.xlsx
-├── Netflix_Content_Analysis_Dashboard.pbix
-│
-├── docs/
-│   ├── 01_Project_Overview.pdf
-│   ├── 02_Data_Collection_and_Understanding.pdf
-│   ├── 03_Excel_Data_Quality_Assessment.pdf
-│   ├── 04_Power_Query_Data_Cleaning_and_Transformation.pdf
-│   ├── 05_Power_BI_Data_Model.pdf
-│   ├── 06_DAX_Measures_and_KPIs.pdf
-│   ├── 07_Dashboard_Design_and_Visualization.pdf
-│   ├── 08_Business_Questions_and_Insights.pdf
-│   ├── 09_Business_Recommendations.pdf
-│   ├── 10_Final_Project_Report.pdf
-│   └── README.md
-│
-├── images/
-│   └── dashboard-layout-preview.svg
-│
-└── README.md
-```
-
-## 12. How to Run the Project
-
-**Prerequisites:** Microsoft Excel and Power BI Desktop.
+**Requirements:** Microsoft Excel and Power BI Desktop.
 
 1. Clone or download this repository.
-2. Open `Raw_Netflix_Dataset.xlsx` to review the original data.
-3. Review `Cleaned_Data_Quality_Report.xlsx`.
-4. Open `Cleaned_Netflix_Dataset.xlsx` to inspect the prepared data.
-5. Open `Netflix_Content_Analysis_Dashboard.pbix` in Power BI Desktop.
-6. Explore the report pages and interactive filters.
-7. Refer to the PDF reports in the `docs` folder for detailed explanations.
+2. Inspect `Raw_Netflix_Dataset.xlsx` first.
+3. Review `Cleaned_Data_Quality_Report.xlsx` and `Cleaned_Netflix_Dataset.xlsx`.
+4. Open `Netflix_Content_Analysis_Dashboard.pbix` in Power BI Desktop.
+5. Review the model, measures, report pages and filters.
+6. Use the PDF library when you need the written process behind the report.
 
-## 13. Scope and Limitations
+## Interpretation notes
 
-- Results depend on the supplied dataset and its available fields.
-- The analysis does not represent Netflix's current live catalogue.
-- Dataset patterns do not establish cause-and-effect relationships.
-- Revenue or subscription conclusions are outside the scope unless supported by relevant data.
-- The dashboard layout image is conceptual; the PBIX file is the interactive report.
+- All findings depend on the records and fields in the supplied workbook.
+- The project does not represent Netflix's current live catalogue.
+- Release-year patterns describe the records in this dataset; they do not establish why content was produced or removed.
+- Revenue, subscriptions, viewer behaviour and platform performance are outside the scope unless supported by suitable data.
+- The preview graphic is conceptual. The PBIX is the report artifact to inspect.
 
-## 14. Author
+---
 
-**Shanmukh Koyya**
-
-- **GitHub:** [shanmukhkoyya](https://github.com/shanmukhkoyya)
-- **LinkedIn:** [linkedin.com/in/shanmukh-koyya](https://www.linkedin.com/in/shanmukh-koyya/)
-- **Email:** [shanmukhkoyya1234@gmail.com](mailto:shanmukhkoyya1234@gmail.com)
+**Project author:** Shanmukh Koyya  
+[GitHub profile](https://github.com/shanmukhkoyya) · [LinkedIn](https://www.linkedin.com/in/shanmukh-koyya/) · [Email](mailto:shanmukhkoyya1234@gmail.com)
