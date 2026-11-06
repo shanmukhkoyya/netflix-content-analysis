@@ -39,6 +39,17 @@ Explore a supplied streaming catalogue by format, genre, rating, country and rel
 
 <sub>Storyboard artwork only—not a screenshot exported from Power BI Desktop.</sub>
 
+## Business recommendations
+
+This project describes the **supply side** of a static catalogue: title type, genre, rating, country and release year. It does not include viewing hours, completion, search demand or subscriber behaviour. Use the catalogue analysis to frame decisions, then validate them with audience and commercial data.
+
+1. **Compare catalogue coverage with audience engagement.** Identify genres, formats and regions with thin catalogue coverage, then compare those gaps with viewing hours, completion rates, search activity and subscriber demand before prioritising new content.
+2. **Improve metadata quality.** Standardise genre, country, rating and release-year fields so content can be filtered and compared consistently across reports.
+3. **Test content discovery changes.** Use catalogue segments to design small homepage or recommendation-placement tests. Judge them on engagement and completion measures, not on catalogue counts alone.
+4. **Review regional and rating suitability.** Combine country and rating fields with local availability, audience requirements and content rights before making localisation or catalogue decisions.
+
+**Decision boundary:** this learning dataset is not Netflix's current live catalogue. It cannot establish popularity, demand, acquisition value or the impact of a content decision. See the [Business Recommendations document](docs/09_Business_Recommendations.pdf) for the project's supporting report.
+
 ## Questions for the final cut
 🎬 Movies vs TV shows · 🎭 Genre mix · 🔞 Rating distribution · 🌍 Country coverage · 📆 Release-year spread.
 
